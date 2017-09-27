@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #222;
+  font-family: futura;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #0074CB;
+  height: 150px;
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+
+}
+
+.mainHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContent{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.playListForm {
+  width: 500px;
+  height: 430px;
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 8px 16px 8px 16px;
+  margin-bottom: 20px;
+}
+
+.formLabel {
+  color: white;
+  font-size: 15px;
+}
+
+.playList {
+  width: 570px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 8px 8px 8px 8px;
+}
+
+.sectionDiv {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.list {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  flex-direction: column;
+  align-items:baseline;
+  justify-content: center;
+}
+
+.listItem {
+  display: flex;
+  align-items: baseline;
+  font-size: 15px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  margin-top: 3px;
+}
+
+.listResult {
+  font-size: 15px;
+  color: #3AEB7A;
+  margin-left: 5px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.submitButton {
+  font-family: futura;
+  font-size: 18px;
+  background-color: #50C7EB;
+  color: white;
+  margin-top: 8px;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.submitButton:hover {
+  color: white;
+  background-color: #3AEB7A;
+}
+
+.updateButton {
+  font-family: futura;
+  font-size: 18px;
+  background-color: #3AEB7A;
+  color: white;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.updateButton:hover {
+  color: white;
+  background-color: #50C7EB;
+}
